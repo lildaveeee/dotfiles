@@ -1,0 +1,59 @@
+* {
+border: none;
+border-radius: 0;
+font-family: "Ubuntu Nerd Font";
+font-size: 13px;
+min-height: 0;
+}
+
+window#waybar {
+    background: rgba(20, 20, 20, 0.85);
+    color: rgba(200, 200, 200, 0.9);
+    border-bottom: 1px solid rgba(255, 85, 85, 0.7);
+}
+
+#window {
+font-weight: bold;
+font-family: "Ubuntu";
+}
+
+#workspaces button {
+padding: 0 5px;
+background: transparent;
+color: rgba(200, 200, 200, 0.9);
+border-top: 2px solid transparent;
+}
+
+#workspaces button.focused {
+color: rgba(255, 85, 85, 0.9);
+border-top: 2px solid rgba(255, 85, 85, 0.9);
+}
+
+#clock, #cpu, #memory, #network, #pulseaudio, #custom-spotify, #tray {
+padding: 0 3px;
+margin: 0 2px;
+}
+
+#clock {
+font-weight: bold;
+}
+
+#network.disconnected {
+background: rgba(255, 60, 60, 0.8);
+}
+
+#custom-spotify {
+color: rgba(255, 85, 85, 0.9);
+}
+
+#custom-separator {
+min-width: 10px; /* Creates spacing */
+color: rgba(150, 150, 150, 0.7);
+}
+
+#custom-firefox:hover,
+#custom-kitty:hover {
+color: rgba(200, 200, 200, 0.9);
+background-color: rgba(255, 85, 85, 0.2);
+border-radius: 4px;
+}
